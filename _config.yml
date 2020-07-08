@@ -9,7 +9,7 @@ url: 'https://IraJane.github.io' # your host
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   Home: '/index.html'
-  Study: '/tags.html' # 공부 메모
+  Study: '/study.html' # 공부 메모
   Journal: '/timeline.html' #독서, 일기, 취미 등등
   
 
