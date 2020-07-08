@@ -30,10 +30,10 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   mail: 'ukelly822@gmail.com'
   weixin: '' # 你的微信二维码存放的地址
   qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: ''
+  github: 'gg'
   Codepen: ''
   weibo: ''
-  instagram: ''
+  instagram: 'ii'
   Twitter: ''
   Dribbble: ''
   Facebook: ''
@@ -48,7 +48,7 @@ paginatepath: ['page:num']
 
 # since
 footer:
-  since: 2018
+  since: 2020
 
 # Markdown
 markdown: kramdown
