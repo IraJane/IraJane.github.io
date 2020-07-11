@@ -29,9 +29,7 @@ portraits: '/assets/flower.jpg' # your portraits image file path
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'github', 'Twitter', 'instagram']
-  google: 'ukelly822@gmail.com'
   github: 'https://github.com/IraJane'
-  instagram: 'ii'
 
 
 
