@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '메모'
+title: '블로그 관리 '
 date: 2020.07.11
 author: IraJane
 color: rgb(255,210,32)
