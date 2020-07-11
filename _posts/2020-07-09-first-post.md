@@ -4,7 +4,7 @@ title: '블로그 관리 '
 date: 2020.07.11
 author: IraJane
 color: rgb(255,210,32)
-tags: Demo
+tags: Memo
 ---
 <h4>07.11 수정사항</h4><br>
 댓글창은 disque라는 것을 사용하면 된다 <br>
