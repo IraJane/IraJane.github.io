@@ -1,7 +1,10 @@
 ---
-title: "메모"
+layout: post
+title: '메모'
 date: 2020.07.11
-categories: Memo
+author: IraJane
+color: rgb(255,210,32)
+tags: Memo
 ---
 
 <h4>07.11 수정사항</h4><br>
