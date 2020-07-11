@@ -24,12 +24,12 @@ webtitle: 'Dear Me'
 bio: 'Becoming what I want'
 about: true
 aboutyou: '#Study, #Happiness'
-portraits: '/assets/flower.jpeg' # your portraits image file path
+portraits: '/assets/flower.jpg' # your portraits image file path
 
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'github', 'Twitter', 'instagram']
-  mail: 'ukelly822@gmail.com'
+  google: 'ukelly822@gmail.com'
   github: 'https://github.com/IraJane'
   instagram: 'ii'
 
