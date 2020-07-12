@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '해킹 강의1'
+title: '웹 기본 지식'
 date: 2020.07.11
 author: IraJane
 tags: WEB-HACK
