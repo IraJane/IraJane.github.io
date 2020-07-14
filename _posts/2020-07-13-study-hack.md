@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '웹해킹 기본'
-date: 2020.07.13
+date: 2020.07.13 ~
 author: IraJane
 tags: WEB-HACK
 ---
@@ -21,6 +21,29 @@ tags: WEB-HACK
           -서로 다른 스킴을 사용하면 웹 브라우저에서 허용하지 않을 수 있음 <br>
 
 
-<br><br><br><br><br><br>
+<br><br><br>
+<h3>Cross Site Scripting(XSS)</h3>
+임의의 악성 스크립트를 실행할 수 있음 - 이를 통해 쿠키나 세션을 탈취할 수 있음
+성공적으로 수행하기 위해서는 데이터를 주고 받을 때 충분한 검증과정이 없으면 된다
+- javascript 로 쿠키정보를 가지고 와서 해킹할 수 있음
+- Stored xss : 해커가 남긴 글을 읽으면 악성 스크립트가 실행되게 함
+- Reflected xss : 요청 데이터가 서버의 응답에 포함되는 과정에 악성 스크립트가 그대로 출력됨 
+
+
+해킹을 방지하기 위해 생겨난 방안들
+1. Server-side Mitigations
+          태그 삽입을 방지하기 위해 서버 단에서 검증하는 방법
+          HTML Entity Encoding을 이요해 <>",'와 같은 특수문자를 태그로 인식이 안되게 설정 가능 
+          사용자 input에 HTML형태를 지원해야 한다면 화이트리스트 필터링을 해야한다
+                    =>주의할 점은 User-Agent나 Referer와 같은 헤더도 같이 필터링해줘야 한다 
+          
+2. HTTPOnly 플래그 사용
+3. Content Security Policy 사용
+4. X-XSS-Protection
+
+
+
+
+<br><br><br>
 
 
