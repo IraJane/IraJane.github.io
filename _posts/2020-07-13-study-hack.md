@@ -5,7 +5,7 @@ date: 2020.07.13
 author: IraJane
 tags: WEB-HACK
 ---
-공부 일자 : 07.13 ~
+공부 일자 : 07.13 ~ 07.18
 <br><br>
 <b>Same Origin Policy(SOP)</b><br>
 -자바스크립트 또는 HTML 태그들을 이용해 나의 계정의 내용을 볼 수 있는 권한을 사용할 수 있게 되는데 그런 공격으로 부터 사용자를 보호하기 위해 만들어졌다.<br>
@@ -40,8 +40,20 @@ tags: WEB-HACK
                     =>주의할 점은 User-Agent나 Referer와 같은 헤더도 같이 필터링해줘야 한다 <br>
           
 <b>2. HTTPOnly 플래그 사용</b><br>
+          서버 측에서 응답 헤더에 set-cookie 헤더를 전송하여 쿠키 생성시 옵션으로 설정이 가능
+                    =>서버측에서 쿠키값을 설정해서 전송하는 것
+          자바스크립트에서 해당 쿠키에 접근하는 것을 금지함
+          XSS 취약점 발생하더라도 공격자가 알아낼 수 없는 쿠키값이다
+          
 <b>3. Content Security Policy 사용</b><br>
+          응답 헤더나 meta 태그를 통해 각각의 지시어를 적용하여 사이트에서 로드하는 리소스들의 출처를 제한할 수 있다
+          신뢰할 출처를 선언하는 방식이라 신뢰받는 CDN서버 해킹시 무력화됨
+                    =>Contents Delivery Network : 멀리 떨어진 사용자에게 컨텐츠를 더 빠르게 제공할 수 있는 기술, 느린 속도를 극복하기 위한 기술
+         
 <b>4. X-XSS-Protection</b><br>
+          Response Header에 선언하여 사용 
+          웹 브라우저에 내장된 XSS Filter를 활성화 할 것인지 설정
+                    =>XSS Filter는 XSS 공격 발생시 유저에게 알리고 차단을 한다 / Reflected XSS 공격 박식을 맏는 데에 적합하였지만 최신 브라우저에서 삭제되는 추세
 
 
 
