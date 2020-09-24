@@ -62,7 +62,7 @@ a{
   /*display: block;*/
 }
 .top-nav li a:hover{
-  color: green;
+  color: #2b0000;
 }
 #top-boot{
   display: none;
