@@ -1,8 +1,8 @@
 ---
 layout: default
 title: About Me
-page-title: aboutMe
-home-title: Show you about me.
+page-title: Portfolio
+home-title: 
 description:
 ---
 
@@ -16,9 +16,9 @@ description:
           <div class="portraits"><img src="{{ site.portraits }}" alt=""></div>
           <span id="yourname">{{ site.name }}</span>
           <span id="yourbio">{{ site.bio }}</span>
-          {% if site.about %}
+<!--           {% if site.about %}
             <span id="aboutyou">{{ site.aboutyou }}</span>
-          {% endif %}
+          {% endif %} -->
         {% endif %}
             <hr>
             <div style="text-align:left;">
@@ -36,13 +36,33 @@ description:
             <div style="text-align:left;">
                 <h5>경력</h5>
                 <div>
-                    <h6>프렌츠</h6>
+                    <h6>프렌츠 : 백엔드 개발</h6>
                     <p>기간 : 2020.09 ~ </p>
                     <p>사용 스택 : Java, Spring, Javascript, ajax, postgreSQL, mybatis</p>
                 </div>
+                <div>
+                    <h6>구현시스템 : 사무 보조</h6>
+                    <p>기간 : 2018.01 ~ 2019.03</p>
+                    <p></p>
+                </div>
             </div>
+            
             <hr>
-            <h4></h4>
+            
+            <div style="text-align:left;">
+                <h5>프로젝트</h5>
+                <div>
+                    <h6>프렌츠 : 랜딩페이지 개발 </h6>
+                    <p>기간 : 2020.09 ~ </p>
+                    <p>사용 언어: Java, Javascript</p>
+                    <p>프레임워크: Spring framework</p>
+                    <p><ul>
+                        <li>어려웠던 점이나 등등 여기 넣기</li>
+                    </ul></p>
+                </div>
+                
+            </div>
+            
         {% if site.SNS %}
           {% for sns-icon in site.SNS-icon %}
             <a href="{{ sns-icon[1] }}" title="{{ sns-icon[0] }}">
