@@ -1,0 +1,14 @@
+---
+layout: post
+title: 'Web Logic 설치 오류'
+date: 2021.01.08
+author: IraJane
+tags: oracle
+---
+
+1. JAVA_HOME에 jdk가 잡혀있으면서 jre로 잡히는 현상
+: 환경 변수에서 path의 java_home을 제일 위로 올림
+
+2. oracle_home 관련 Oracle 홈(O) 위치에 하나 이상의 부적합한 문자가 포함되어 있습니다.
+: java -jar fmw_14.1.1.0.0_wls_lite_quick_generic.jar ORACLE_HOME=D:\app\iraja\product\11.2.0\ddd 
+이렇게 폴더 지정해주면 그 폴더로 가서 설치하는 걸로 확인됨 
